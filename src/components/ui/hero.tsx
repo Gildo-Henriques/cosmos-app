@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section>
       <DivsAnimateHero />
-      <DivBlur className="size-96 absolute lg:-top-32 top-0 blur-3xl lg:right-10 right-5 z-20  bg-conic from-blue-200 to-gray-100 to-50% rounded-full" />
+      <DivBlur className="size-96 absolute lg:-top-32 top-0 blur-3xl lg:right-10 right-5 z-50  bg-conic from-blue-200 to-gray-100 to-50% rounded-full" />
       <Navbar />
       <section className="w-full text-center h-[550px] flex flex-col items-center justify-center z-20 lg:px-20 px-3">
         {/* <H1 className="" title=" "/> */}
@@ -46,7 +46,7 @@ export default function Hero() {
           </Link>
         </div>
       </section>
-      <DivBlur className="size-96 absolute lg:-top-48 -top-42 blur-3xl lg:left-10 -left-1 z-20  bg-conic from-blue-300 to-gray-100 to-50% rounded-full" />
+      <DivBlur className="size-96 absolute lg:-top-48 -top-42 blur-3xl lg:left-10 -left-1 z-50  bg-conic from-blue-300 to-gray-100 to-50% rounded-full" />
       <div className="z-20 relative">
         <InfiniteImageScroll />
       </div>

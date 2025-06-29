@@ -58,7 +58,7 @@ export default function Home() {
         
          <DivBlur className="size-[500px] absolute -z-20 blur-3xl rotate-180 top-0 right-0 lg:right-[550px] bg-conic from-blue-300 from-5% to-gray-800/30 to-90% rounded-full"/>
 
-      <section className="mt-20 z-20">
+      <section className="mt-20 z-20 p-5">
         <div className="text-center space-y-3 z-50">
           <h2 className="text-3xl font-bold text-center z-50 text-[#2c2c2c] font-gil">Identify value much faster</h2>
           <p className="text-lg text-[#2c2c2c]">Use powerful yet familiar tools to create your ultimate website design. Import your files everywhere, including Figma.</p>
