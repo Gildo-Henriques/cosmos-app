@@ -16,7 +16,7 @@ export default function Hero() {
         {/* <H1 className="" title=" "/> */}
         <Lines />
         <h1 className="lg:text-5xl text-3xl font-bold text-center z-20 text-[#3a3a3a] font-gil">
-          o e <br className="hidden lg:flex" />
+          A ponte entre talento e <br className="hidden lg:flex" />
           oportunidades globais.
         </h1>
         <div className="2xl:px-48 lg:px-40 px-2 z-30 text-[#434343] mt-5">
