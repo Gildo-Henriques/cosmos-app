@@ -129,7 +129,7 @@ const InfiniteImageScroll: React.FC = () => {
                 height={320}
               />
               <div className="absolute flex justify-end py-5 px-5 flex-col bg-gradient-to-b to-[#3a3a3a] text-[#bcbcbc] from-transparent w-[350px] lg:w-full lg:h-full h-52 top-0">
-                <h3 className="text-2xl font-bold mb-2">{item.title}</h3>
+                <h3 className="text-2xl font-bold font-gil mb-2">{item.title}</h3>
                 <p className="text-sm">{item.text}</p>
               </div>
             </div>

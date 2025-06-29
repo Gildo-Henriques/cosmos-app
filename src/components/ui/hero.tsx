@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section>
       <DivsAnimateHero />
-      <DivBlur className="size-96 absolute -top-32 blur-3xl right-10 z-20  bg-conic from-blue-200 to-gray-100 to-50% rounded-full" />
+      <DivBlur className="size-96 absolute lg:-top-32 top-0 blur-3xl lg:right-10 right-5 z-20  bg-conic from-blue-200 to-gray-100 to-50% rounded-full" />
       <Navbar />
       <section className="w-full text-center h-[550px] flex flex-col items-center justify-center z-20 lg:px-20 px-3">
         {/* <H1 className="" title=" "/> */}
@@ -28,25 +28,25 @@ export default function Hero() {
             internacional.
           </p>
         </div>
-        <div className="flex z-30 gap-3 *:py-2 * mt-5 *:rounded-md">
-          <Link href={"#"} className="">
+        <div className="flex lg:flex-row flex-col w-full px-5 justify-center z-30 gap-x-3 *:py-2 * mt-5 *:rounded-md">
+          <Link href={"#"} className="*:w-full">
             <Button size={1} color="azul">
-              <span>Começar</span>
+              <span className="text-center">Começar</span>
               <ArrowRight className="text-white/50 size-4 mt-1 group-hover:translate-x-1 group-hover:text-white transition-transform duration-200" />
             </Button>
           </Link>
           <Link
             href={"#"}
-            className=""
+            className="*:w-full"
           >
              <Button size={1} color="preto">
-              <span>Criar conta</span>
+              <span className="text-center">Criar conta</span>
 
             </Button>
           </Link>
         </div>
       </section>
-      <DivBlur className="size-96 absolute -top-48 blur-3xl lg:left-10 -left-5 z-20  bg-conic from-blue-300 to-gray-100 to-50% rounded-full" />
+      <DivBlur className="size-96 absolute lg:-top-48 -top-42 blur-3xl lg:left-10 -left-1 z-20  bg-conic from-blue-300 to-gray-100 to-50% rounded-full" />
       <div className="z-20 relative">
         <InfiniteImageScroll />
       </div>
